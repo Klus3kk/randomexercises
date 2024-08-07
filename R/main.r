@@ -39,3 +39,14 @@ floor(1.4)
 # Operators: +, -, *, /, ^, %%, %/%
 
 x1 <<- 5.1 # <<-: global assigment
+
+# Functions
+funkcja <- function(name) {
+    paste("Your name is: ", name)
+}
+
+# factor(): set, data.frame(): dictionary
+
+# Plotting
+plot(1, 3)
+plot(c(1,2,3,4,5), c(3,7,8,9,12), type="l", main="Test Graph", xlab="X", ylab="Y", col="blue")
