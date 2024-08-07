@@ -49,4 +49,8 @@ funkcja <- function(name) {
 
 # Plotting
 plot(1, 3)
-plot(c(1,2,3,4,5), c(3,7,8,9,12), type="l", main="Test Graph", xlab="X", ylab="Y", col="blue")
+plot(c(1,2,3,4,5), c(3,7,8,9,12), type="l", main="Test Graph", xlab="X", ylab="Y", col="blue", lwd=3)
+
+x <- c(10,20,30,40)
+pie(x)
+barplot(x)
