@@ -35,3 +35,7 @@ sqrt(16)
 abs(-5)
 ceiling(1.4)
 floor(1.4)
+
+# Operators: +, -, *, /, ^, %%, %/%
+
+x1 <<- 5.1 # <<-: global assigment
