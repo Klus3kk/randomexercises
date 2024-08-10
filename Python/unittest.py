@@ -1,6 +1,5 @@
 # Using python -m pytest <file> -vvv
 
-
 def isAdult(age: int) -> bool:
     return age >= 18
 
