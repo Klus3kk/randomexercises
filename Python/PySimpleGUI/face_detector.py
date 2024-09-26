@@ -23,7 +23,8 @@ while True:
         gray,
         scaleFactor = 1.3,
         minNeighbors = 7,
-        minSize=(50,50))
+        minSize=(50,50)
+    )
     
     # draw the rectangle
     for (x, y, w, h) in faces:
